@@ -1,6 +1,7 @@
-const nevermind = ''
-const never = false
+type props = {
+  never: boolean
+}
 
-export default function Home() {
+export default function Home({ never = 'teste' }: props) {
   return <div>Testando</div>
 }
