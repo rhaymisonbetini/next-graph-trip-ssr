@@ -10,7 +10,7 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx}": [
+    "src/**/*.{js,jsx,tsx}": [
       "eslint --fix"
     ]
   },
