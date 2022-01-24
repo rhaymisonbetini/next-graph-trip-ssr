@@ -11,7 +11,7 @@
   },
   "lint-staged": {
     "src/**/*.{js,jsx,tsx}": [
-      "next lint"
+      "yarn next lint"
     ]
   },
   "dependencies": {

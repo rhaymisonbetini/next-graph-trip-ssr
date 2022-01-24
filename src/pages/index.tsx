@@ -1,7 +1,3 @@
-type props = {
-  never: boolean
-}
-
-export default function Home({ never = 'teste' }: props) {
+export default function Home() {
   return <div>Testando</div>
 }
