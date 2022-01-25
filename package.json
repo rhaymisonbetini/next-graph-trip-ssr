@@ -7,7 +7,8 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "test":"jest"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,tsx}": [
@@ -24,6 +25,8 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
     "@types/node": "^17.0.10",
     "@types/react": "^17.0.38",
     "eslint": "8.7.0",
@@ -32,6 +35,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^7.0.0",
+    "jest": "^27.4.7",
     "prettier": "2.5.1",
     "typescript": "^4.5.5"
   }
