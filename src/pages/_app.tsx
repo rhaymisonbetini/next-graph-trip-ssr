@@ -8,10 +8,11 @@ import GlobalStyle from '../styles/globals'
 function App({ Component, pageProps }: AppProps) {
     return (
         <React.Fragment>
+            <GlobalStyle />
             <Head>
                 <title>Next Avançado With LeafLet</title>
                 <link rel="stylesheet" href="/im" />
-                <meta name="A simple project in next using GraphQl and LeafLet"/>
+                <meta name="A simple project in next using GraphQl and LeafLet" />
             </Head>
             <Component {...pageProps} />
         </React.Fragment>
