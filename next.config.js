@@ -1,3 +1,2 @@
-module.exports = {
-  reactStrictMode: true
-}
+/* eslint-disable @typescriot-eslint/no-var-requires */
+

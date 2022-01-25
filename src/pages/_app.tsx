@@ -11,8 +11,10 @@ function App({ Component, pageProps }: AppProps) {
             <GlobalStyle />
             <Head>
                 <title>Next Avançado With LeafLet</title>
-                <link rel="stylesheet" href="/im" />
+                <link rel="stylesheet" href="/img/logo.svg" />
+                <link rel="stylesheet" href="/manifest.json" />
                 <meta name="A simple project in next using GraphQl and LeafLet" />
+                <meta name="theme-color" content="#06092B" />
             </Head>
             <Component {...pageProps} />
         </React.Fragment>
