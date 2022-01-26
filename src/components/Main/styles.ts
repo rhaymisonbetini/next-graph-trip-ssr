@@ -11,6 +11,7 @@ export const Wrapper = styled.main`
     flex-direction: column;
     justify-content: center;
     padding: 3rem;
+    cursor: pointer;
 `
 
 export const Logo = styled.img`

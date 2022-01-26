@@ -1,6 +1,17 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+
+    :root{
+        --highlight: #e20e8d;
+        --background: #030518;
+        --white: #eeeeee;
+        --container:100rem;
+        --smal:1.5rem;
+        --medium:3rem;
+        --large:5rem;
+    }
+
     *{
         margin: 0;
         padding: 0;
@@ -15,6 +26,8 @@ const GlobalStyle = createGlobalStyle`
         height: 100%
         margin: 0;
         padding: 0;
+        background: var(--background);
+        color: var(--white);
     }
 
     body{
@@ -28,6 +41,15 @@ const GlobalStyle = createGlobalStyle`
         'Open Sans', 
         'Helvetica Neue',
         sans-serif
+    }
+
+    p{
+        font-size: 2rem;
+        line-height: var(--medium);
+    }
+
+    a{
+        color:var(--highlight);
     }
 
 `

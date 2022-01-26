@@ -14,6 +14,9 @@ function App({ Component, pageProps }: AppProps) {
                 <link rel="stylesheet" href="/img/logo.svg" />
                 <link rel="stylesheet" href="/manifest.json" />
                 <meta name="A simple project in next using GraphQl and LeafLet" />
+                <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+                    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+                    crossOrigin="" />
                 <meta name="theme-color" content="#06092B" />
             </Head>
             <Component {...pageProps} />
